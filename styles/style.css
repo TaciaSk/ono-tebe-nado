@@ -283,11 +283,14 @@
   height: 240px;
   margin-top: 35px;
   margin-left: 48px;
-  border-radius: 200px;
+  border-radius: 50%;
   background-color: #000;
 }
 .about__logo-image {
   display: block;
+  width: 148px;
+  height: 114px;
+  place-self: center;
   
 }
 .about-article {
