@@ -9,7 +9,7 @@
 
 .header__menu {
   margin: auto 0;
-  margin-top: 49px;
+  margin-top: 45px;
   padding-left: 26.52px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -50,7 +50,7 @@
 .address {
   justify-self: end;
   align-self: center;
-  margin-top: 9px;
+  margin-top: 5px;
   padding-right: 64px;
   font-weight: 400;
   font-size: 18px;
@@ -65,8 +65,7 @@
 .cover {
   position: relative;
   z-index: 0;
-  background-image: url("/images/cover.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
   height: 757px;
@@ -254,8 +253,8 @@
 }
 
 .lots__look-more-link {
-  display: block;
-  margin-top: 30px;
+  display: inline-block;
+  margin-top: 35px;
   margin-left: 64px;
   color: #000;
   font-size: 20px;
@@ -279,7 +278,7 @@
 }
 .about__logo {
   justify-self: center;
-  align-content: center;
+  place-content: center;
   width: 240px;
   height: 240px;
   margin-top: 35px;
@@ -287,8 +286,9 @@
   border-radius: 200px;
   background-color: #000;
 }
-.about__logo-image{
+.about__logo-image {
   display: block;
+  
 }
 .about-article {
   display: flex;
