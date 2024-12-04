@@ -49,17 +49,21 @@
 }
 
 .address {
-  justify-self: end;
+  
   align-self: center;
-  margin-top: 5px;
-  padding-right: 64px;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
   list-style: none;
+  font-style: normal;
+}
+.header__address {
+  justify-self: end;
+  margin-top: 5px;
+  padding-right: 64px;
 }
 
-.header__address {
+.header-footer_address {
   border-bottom: 1px solid #000;
   text-decoration: none;
 }
@@ -174,7 +178,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
   min-width: 1052px;
-  height: 563px;
+  min-height: 563px;
   margin-right: 24px;
 }
 .lots__card-list-item {
@@ -299,7 +303,7 @@
   display: grid;
   grid-template-columns: 240px 1fr 1fr;
   gap: 180px;
-  height: 98px;
+  min-height: 98px;
   margin-top: 180px;
   margin-right: 50px;
   margin-left: 50px;
@@ -311,15 +315,7 @@
   letter-spacing: 0.01em;
   text-align: left;
 }
-.address_last-page {
-  text-decoration: none;
-  list-style: none;
-}
 
-.footer__address {
-  border-bottom: 1px solid #000;
-  text-decoration: none;
-}
 .footer__menu-list {
   text-align: center;
   list-style: none;
