@@ -49,7 +49,6 @@
 }
 
 .address {
-  
   align-self: center;
   font-weight: 400;
   font-size: 18px;
@@ -180,6 +179,7 @@
   min-width: 1052px;
   min-height: 563px;
   margin-right: 24px;
+  flex-wrap: 1;
 }
 .lots__card-list-item {
   list-style: none;
